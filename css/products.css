@@ -1,0 +1,579 @@
+.about-banner {
+  background: url("../assets/images/products-banner.png") center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-center .abt-title1 {
+  font-size: 70px;
+  font-family: var(--mesiri-font);
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-center .abt-title2 {
+  font-size: 25px;
+  color: var(--text-color);
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+
+/* WINE CATEGORY BOXES */
+
+.wine-category-sec {
+  padding: 120px 0 0;
+}
+
+.wine-category-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  row-gap: 50px;
+}
+
+.wine-category-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98px;
+  border: 2px solid #991421;
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.wine-category-box:hover {
+  background: #991421;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+
+/* SPOTLIGHT SECTION */
+.spotlight-sec {
+  padding: 120px 0 0;
+}
+
+.spotlight-heading {
+  max-width: 300px;
+  margin: 0 auto 63px;
+  text-align: center;
+}
+
+.spotlight-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.spotlight-card {
+  max-width: 343px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spotlight-img {
+  margin-bottom: 33px;
+  max-width: 352px;
+  height: 338px;
+}
+
+.spotlight-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spotlight-card h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+/* GIFTING SECTION */
+.gifting-sec {
+  padding: 120px 0 0;
+}
+
+.gifting-heading {
+  max-width: 353px;
+  margin: 0 auto 63px;
+  text-align: center;
+}
+
+.gifting-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.gifting-card {
+  max-width: 435px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gifting-img {
+  margin-bottom: 12px;
+}
+
+.gifting-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gifting-card h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.gifting-btn {
+  display: inline-block;
+  padding: 5px 26px;
+  background: #991421;
+  color: var(--text-color);
+  border-radius: 38px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.gifting-btn:hover {
+  background: #7d101a;
+  transform: translateY(-2px);
+}
+
+
+/* BEST SELLERS SECTION */
+.bestseller-sec {
+  padding: 120px 0 0;
+}
+
+.bestseller-heading {
+  max-width: 353px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.bestseller-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.bestseller-card {
+  max-width: 321px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bestseller-img {
+  margin-bottom: 12px;
+}
+
+.bestseller-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bestseller-card h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.bestseller-card .price {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 29px;
+}
+
+.btn-cart {
+  display: inline-block;
+  padding: 13px 24.5px;
+  background: #991421;
+  color: var(--text-color);
+  border-radius: 38px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.btn-cart:hover {
+  background: #7d101a;
+  transform: translateY(-2px);
+}
+
+
+/* DISCOVER WINES SECTION */
+.discover-sec {
+  padding: 120px 0 0;
+}
+
+.discover-heading {
+  max-width: 334px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.discover-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.discover-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.discover-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.discover-arrow {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.discover-arrow:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.discover-card {
+  max-width: 343px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.discover-img {
+  margin-bottom: 25px;
+}
+
+.discover-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.discover-card h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+
+/*TRENDING PRODUCTS */
+.trending-pro-sec {
+  padding: 120px 0 0;
+}
+.trending-heading {
+  max-width: 333px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+.trending-heading > .title2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.recommendation-card {
+  max-width: 435px;
+  margin: 0 auto;
+}
+.card-image {
+  margin-bottom: 11px;
+  position: relative;
+}
+.card-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.red-hot {
+  position: absolute;
+  top: 17px;
+  right: 26px;
+  padding: 4px 19px;
+  background: #991421;
+  color: #ffffff;
+}
+/* .card-content{
+    max-width:356px;
+    padding: 0 39px;
+} */
+.card-content {
+  padding: 0 20px;
+  text-align: center;
+}
+.review-icon {
+  text-align: center;
+}
+.card-desc {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.price {
+  text-align: center;
+}
+
+
+/* TOP BRANDS */
+.brands-sec {
+  padding: 120px 0 0;
+}
+
+.brands-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.brands-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.brands-row {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.brand-col {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #cfcfcf;
+  padding: 20px;
+}
+
+/* Remove last right border */
+.col-3:last-child .brand-col {
+  border-right: none;
+}
+
+.brand-col img {
+  max-width: 202px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  /* DISCOVER WINES SECTION */
+  .discover-card h4 {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  /*TRENDING PRODUCTS */
+  .red-hot {
+    top: 12px;
+    right: 21px;
+  }
+
+  /* TOP BRANDS */
+  .brand-col {
+    border-right: none;
+  }
+  .col-3 {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  /* WINE CATEGORY BOXES */
+  .wine-category-box {
+    font-size: 22px;
+    height: 85px;
+  }
+
+  /* SPOTLIGHT SECTION */
+  .spotlight-card h4 {
+    font-size: 22px;
+  }
+
+  /* GIFTING SECTION */
+  .gifting-card h4 {
+    font-size: 22px;
+  }
+
+  /* BEST SELLERS SECTION */
+  .bestseller-card h4 {
+    font-size: 20px;
+  }
+
+  /* DISCOVER WINES SECTION */
+  .discover-wrapper {
+    flex-direction: column;
+  }
+
+  .discover-arrow {
+    display: none;
+  }
+
+  .discover-sec .col-3 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .discover-card h4 {
+    font-size: 20px;
+  }
+
+  /*TRENDING PRODUCTS */
+  .card-content {
+    padding: 0 20px;
+  }
+  .card-desc {
+    font-size: 16px;
+  }
+  .trending-pro-sec .col-3 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  /* WINE CATEGORY BOXES */
+  .wine-category-row .col-4 {
+    width: 50%;
+  }
+
+  /* SPOTLIGHT SECTION */
+  .spotlight-sec .col-3 {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  /* GIFTING SECTION */
+  .gifting-sec .col-3 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /* BEST SELLERS SECTION */
+  .bestseller-sec .col-3 {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  /* TOP BRANDS */
+  .brand-col {
+    border-right: none;
+    border-bottom: 1px solid #cfcfcf;
+    min-height: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* WINE CATEGORY BOXES */
+  .wine-category-row .col-4 {
+    width: 100%;
+  }
+
+  .wine-category-box {
+    font-size: 20px;
+    height: 80px;
+  }
+
+  /* SPOTLIGHT SECTION */
+  .spotlight-sec .col-3 {
+    width: 100%;
+  }
+
+  .spotlight-card h4 {
+    font-size: 20px;
+  }
+
+  .spotlight-img {
+    margin-bottom: 20px;
+  }
+
+  /* GIFTING SECTION */
+  .gifting-sec .col-3 {
+    width: 100%;
+  }
+
+  .gifting-card h4 {
+    font-size: 20px;
+  }
+
+  .gifting-btn {
+    font-size: 16px;
+    padding: 8px 24px;
+  }
+
+  /* BEST SELLERS SECTION */
+  .bestseller-sec .col-3 {
+    width: 100%;
+  }
+
+  .bestseller-card h4 {
+    font-size: 18px;
+  }
+
+  .btn-cart {
+    font-size: 14px;
+    padding: 10px 28px;
+  }
+
+  /* DISCOVER WINES SECTION */
+  .discover-sec .col-3 {
+    width: 100%;
+  }
+
+  .discover-heading {
+    margin-bottom: 50px;
+  }
+
+  .discover-heading .title2 {
+    font-size: 26px;
+  }
+
+  .discover-card h4 {
+    font-size: 18px;
+  }
+
+  /*TRENDING PRODUCTS */
+  .trending-pro-sec .col-3 {
+    width: 100%;
+  }
+}

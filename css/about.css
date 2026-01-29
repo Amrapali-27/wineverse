@@ -1,0 +1,605 @@
+/* BANNER SECTION*/
+.about-banner {
+  background: url("../assets/images/about-banner.png") center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-center .abt-title1 {
+  font-size: 70px;
+  font-family: var(--mesiri-font);
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-center .abt-title2 {
+  font-size: 25px;
+  color: var(--text-color);
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+/* ABOUT HISTORY SECTION */
+.about-history {
+  padding: 120px 0 0;
+}
+
+.history-heading {
+  text-align: center;
+  /* max-width: 900px; */
+  margin: 0 auto 37px;
+}
+
+.history-heading .title2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #c0a483 !important;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.history-heading .decor-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.history-heading .supertitle {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.history-heading p {
+  font-size: 20px;
+}
+
+.history-image {
+  max-width: 1649px;
+  margin: 0 auto;
+}
+
+.history-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+.history-content p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.history-timeline {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.timeline-item {
+  text-align: left;
+}
+
+.timeline-item h4 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.timeline-item span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #c0a483;
+  margin: 25px 0 15px;
+}
+
+.timeline-item p {
+  font-size: 20px;
+}
+
+/* WINEMAKING PROCESS SECTION */
+.winemaking-sec {
+  padding: 120px 0 0;
+}
+
+.winemaking-heading {
+  text-align: center;
+  /* max-width: 900px; */
+  margin: 0 auto 37px;
+}
+
+.winemaking-heading .decor-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.winemaking-heading .title2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #c0a483 !important;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.winemaking-heading .supertitle {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.winemaking-heading p {
+  font-size: 20px;
+}
+
+.process-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.process-img {
+  margin-bottom: 52px;
+}
+
+.process-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.process-card h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.process-card span {
+  color: #6d6d6d;
+}
+
+
+/* WINE CLUB SECTION */
+.wineclub-sec {
+  padding: 120px 0 0;
+}
+
+.wineclub-sec .container {
+  padding: 0 !important;
+  max-width: 100%;
+}
+
+.wineclub-sec .row {
+  margin: 0 !important;
+}
+
+.wineclub-sec .col-6 {
+  padding: 0 !important;
+}
+.wineclub-left {
+  min-height: 760px;
+  background: linear-gradient(-115deg, #991421, #000000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.wineclub-box {
+  border: 1px solid #fff;
+  padding: 93px 62px;
+  text-align: center;
+  color: var(--text-color);
+  max-width: 733px;
+}
+
+.wineclub-box .title2 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.wineclub-box p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.wineclub-right {
+  height: 760px;
+}
+.wineclub-right img {
+  display: block;
+}
+
+
+/* MEET PROFESSIONALS */
+
+.team-sec {
+  padding: 120px 0 0;
+}
+
+/* Heading */
+.team-heading {
+  text-align: center;
+  /* max-width: 900px; */
+  margin: 0 auto 37px;
+}
+
+.team-heading .title2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #c0a483 !important;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.team-heading .decor-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.team-heading .supertitle {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.team-heading p {
+  font-size: 20px;
+}
+
+/* Layout */
+.team-row {
+ display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+/* Featured */
+
+.featured-img{
+  max-width: 499px;
+}
+.team-featured .featured-img img {
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.featured-label {
+  color: #C0A483;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.team-featured h4 {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+
+.team-featured p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 37px;
+}
+
+/* Team Members */
+.team-member {
+  margin-bottom: 60px;
+}
+
+.member-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.member-header img {
+  width: 98px;
+  height: 99px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 22px;
+}
+
+.member-header span {
+  font-size: 24px;
+  color: #C0A483;
+  display: block;
+  margin-bottom: 9px;
+}
+
+.member-header h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.team-member p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+
+/* TOP BRANDS */
+.brands-sec {
+  padding: 120px 0 0;
+}
+
+.brands-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.brands-heading .title2 {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.brands-row {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.brand-col {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #cfcfcf;
+  padding: 20px;
+}
+
+/* Remove last right border */
+.col-3:last-child .brand-col {
+  border-right: none;
+}
+
+.brand-col img {
+  max-width: 202px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+@media screen and (max-width: 1400px){
+  /* MEET PROFESSIONALS */
+   .team-heading .supertitle {
+    font-size: 56px;
+  }
+
+  .team-heading p {
+    font-size: 18px;
+  }
+
+  .member-header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .member-header h5 {
+    font-size: 26px;
+  }
+
+  .member-header span {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .col-4 {
+    width: 100%;
+  }
+
+    /* WINEMAKING PROCESS SECTION */
+  .process-img {
+    margin-bottom: 15px;
+  }
+  .process-card h4 {
+    margin-bottom: 25px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .col-5,
+  .col-7 {
+    width: 100%;
+  }
+ 
+
+    /* MEET PROFESSIONALS */
+  .team-featured {
+    max-width: 600px;
+    margin: 0 auto 80px;
+    text-align: center;
+  }
+
+  .featured-img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .team-featured h4 {
+    font-size: 28px;
+  }
+
+  .team-featured p {
+    font-size: 18px;
+  }
+
+  .team-list .col-6 {
+    width: 50%;
+  }
+
+  .member-header {
+    align-items: center;
+  }
+
+ 
+  /* TOP BRANDS */
+   .brand-col {
+    border-right: none;
+   }
+   .col-3 {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  /* WINE CLUB SECTION */
+  .wineclub-sec .col-6 {
+    width: 100%;
+  }
+
+  .wineclub-box .title2 {
+    font-size: 42px;
+  }
+
+  .wineclub-right {
+    display: none;
+  }
+
+  .wineimage {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .col-2, 
+  .col-6 {
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;        
+  }  
+
+  /* ABOUT HISTORY SECTION */
+  .history-heading .supertitle {
+    font-size: 50px;
+  }
+  .timeline-item span {
+    margin: 0px 0 10px;
+  }
+  .timeline-item p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  /* WINEMAKING PROCESS SECTION */
+  .winemaking-heading .supertitle {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .process-card h4 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+    /* WINE CLUB SECTION */
+   .wineclub-box p {
+    font-size: 16px;
+  }
+
+  /* MEET PROFESSIONALS */
+   .team-heading .title2 {
+    font-size: 16px;
+  }
+
+  .team-heading .supertitle {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .team-heading p {
+    font-size: 16px;
+  }
+
+  .team-featured h4 {
+    font-size: 24px;
+  }
+
+  .featured-label {
+    font-size: 18px;
+  }
+
+  .team-featured p {
+    font-size: 16px;
+  }
+
+  .team-list .col-6 {
+    width: 100%;
+  }
+
+  .team-member {
+    margin-bottom: 40px;
+  }
+
+  .member-header img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .member-header span {
+    font-size: 18px;
+  }
+
+  .member-header h5 {
+    font-size: 22px;
+  }
+
+  .team-member p {
+    font-size: 16px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px 22px;
+  }
+
+  /* TOP BRANDS */
+  .brand-col {
+    border-right: none;
+    border-bottom: 1px solid #cfcfcf;
+    min-height: 180px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+
+  /* WINEMAKING PROCESS SECTION */
+  .process-card h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
