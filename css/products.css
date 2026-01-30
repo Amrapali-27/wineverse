@@ -242,18 +242,16 @@
 .discover-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 15px;
 }
 
 .discover-arrow {
   background: transparent;
   border: none;
-  padding: 0;
   cursor: pointer;
-  flex-shrink: 0;
   transition:
     opacity 0.3s ease,
     transform 0.3s ease;
+    margin: 0 10px 0 10px;
 }
 
 .discover-arrow:hover {
@@ -263,11 +261,14 @@
 
 .discover-card {
   max-width: 343px;
+  
   margin: 0 auto;
   text-align: center;
 }
 
 .discover-img {
+ height: 338px;
+
   margin-bottom: 25px;
 }
 
