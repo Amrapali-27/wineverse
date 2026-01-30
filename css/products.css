@@ -1,6 +1,6 @@
 .about-banner {
   background: url("../assets/images/products-banner.png") center/cover no-repeat;
-  min-height: 100vh;
+  min-height: 593px;
   display: flex;
   align-items: center;
   justify-content: center;
