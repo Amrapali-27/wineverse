@@ -262,18 +262,12 @@ nav,
 
 /* FOOTER SECTION */
 
-/* ===========================
-   FOOTER BASE
-=========================== */
-
 .site-footer {
   color: #fff;
   padding: 120px 0 0;
 }
 
-/* ===========================
-   NEWSLETTER
-=========================== */
+/* NEWSLETTER */
 
 .footer-newsletter {
   background: #C0A483;
@@ -323,9 +317,7 @@ nav,
   flex-wrap: wrap;
 }
 
-/* ===========================
-   MAIN FOOTER
-=========================== */
+/*MAIN FOOTER */
 
 .footer-main {
   background: #000;
@@ -360,9 +352,7 @@ nav,
   list-style: none;
 }
 
-/* ===========================
-   APP BUTTONS
-=========================== */
+/* APP BUTTONS */
 
 .app-buttons {
   display: flex;
@@ -405,9 +395,7 @@ nav,
 }
 
 
-/* ===========================
-   SOCIALS + BACK TO TOP
-=========================== */
+/*SOCIALS + BACK TO TOP*/
 
 .footer-extras {
   position: absolute;
@@ -456,9 +444,7 @@ nav,
   color: #000;
 }
 
-/* ===========================
-   BOTTOM BAR
-=========================== */
+/*BOTTOM BAR*/
 
 .footer-bottom {
   background: #000;

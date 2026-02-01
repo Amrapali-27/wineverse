@@ -324,7 +324,52 @@ nav,
   background: url("../assets/images/feature-3.png") center/cover no-repeat;
 }
 
+
 /* USP STRIP */
+.strip {
+  padding: 23px 0;
+  overflow: hidden;
+}
+
+.usp-strip {
+  background: linear-gradient(90deg, #efd9b4, #e3b97a);
+  padding: 22px 0;
+  border: 1px solid #7a1f1f;
+}
+
+.usp-list {
+  display: flex;
+  align-items: center;
+  gap: 60px;                /* controls spacing */
+  text-wrap: nowrap;
+
+  animation: slideToLeft 8s linear infinite;
+}
+
+.usp-list li {
+  display: flex;
+  align-items: center;
+  gap: 20px;                /* star & text spacing */
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 300;
+  color: #7a1f1f;
+}
+
+.usp-list li img {
+  width: 18px;
+  height: auto;
+}
+
+@keyframes slideToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /* .strip {
   padding: 23px 0;
 }
@@ -1301,6 +1346,26 @@ nav,
   .feature-content {
     min-height: 300px;
     margin: 10px auto;
+  }
+
+
+   /* USP STRIP */
+  .usp-list {
+    gap: 40px;
+    
+  }
+
+  .usp-list li {
+    font-size: 18px;
+    gap: 14px;
+  }
+
+  .usp-list li img {
+    width: 14px;
+  }
+
+  .footer-main .col-2{
+    width: 100%;
   }
 
 
